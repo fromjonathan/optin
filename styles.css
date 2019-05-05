@@ -1,0 +1,48 @@
+
+html {
+    font-family: 'Lato', sans-serif;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body{
+    background-color: #336699;
+    color: #ebebeb;
+    
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-logo{
+    margin: auto;
+}
+
+.row-2{
+    flex: 1;
+    background-color: #1d548a;
+    /* background-color: #993352; */
+    display: flex;
+}
+
+.row-2 .left-title{
+    flex: 1;
+    /* background-color: #7c3399; */
+}
+.row-2 .right-image{
+    flex: 1;
+    background-color: #998f33;
+}
+
+
+
+.popup{
+    background-color: rgb(29, 84, 138);
+    width: 100vh;
+    margin: 0 auto;
+
+}
